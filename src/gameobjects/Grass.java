@@ -15,10 +15,14 @@ import java.io.IOException;
  * @author Yağız Can Aslan 22001943
  * @version 01.04.2021
 */
-@SuppressWarnings("serial")
 public class Grass extends JComponent
 {
-    // Properties
+    /**
+	 *  7220713965389263767L
+	 */
+    private static final long serialVersionUID = 7220713965389263767L;
+    
+	// Properties
     public final static int SIZE = 15;
     public final static int BORDER_SIZE = 2;
     private final Color DARK_GREEN_BORDER = new Color( 20, 100 - (int) (Math.random() * 21), 20);

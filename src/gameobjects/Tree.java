@@ -17,10 +17,14 @@ import java.io.IOException;
  * @author Yağız Can Aslan 22001943
  * @version 01.04.2021
 */
-@SuppressWarnings("serial")
 public class Tree extends JComponent
 {
-    // Properties
+    /**
+	 *  -2936177311587327665L
+	 */
+    private static final long serialVersionUID = -2936177311587327665L;
+    
+	// Properties
     public final static int BORDER_SIZE = 2;
     public final static int SIZE = 30 - (int) (Math.random() * 17);
     private final Color OAK = new Color( 5, (104 - (int) (Math.random() * 32)), 2); // Dark Green rgb(5, 104, 2)
