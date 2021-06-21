@@ -17,7 +17,7 @@ import gameobjects.*;
 /**
  * Main class for Flappy Square
  * @author Yağız Can Aslan 22001943
- * @version 30.03.2021
+ * @version v0.2.1
 */ 
 public class Main
 {
