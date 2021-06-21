@@ -300,12 +300,13 @@ public class Player extends JComponent implements ActionListener
      * @version 15.06.2021
     */
     private void gameLost( String reason) {
+        gameOver = true;
+        
         velocityX = 0;
         velocityY = 0;
         
         lossReason = "GAME LOST: " + reason;
         
-        gameOver = true;
         updater.schedule( this::closeGame, 8, TimeUnit.SECONDS);
     }
     
