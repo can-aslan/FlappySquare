@@ -1,10 +1,9 @@
-import java.awt.Dimension;
-
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.Timer;
 
+import java.awt.Dimension;
 import java.awt.event.*;
 import java.awt.BorderLayout;
 import java.awt.Color;
